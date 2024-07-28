@@ -1,0 +1,16 @@
+model_path: "Models/03_handwriting_recognition/202301111911/model.onnx"
+vocab: "abcdefghijklmnopqrstuvwxyz"
+width: 128
+height: 32
+max_text_length: 32
+learning_rate: 0.001
+train_epochs: 100
+train_workers: 4
+images:
+  - "path/to/image1.jpg"
+  - "path/to/image2.jpg"
+  - "path/to/image3.jpg"
+labels:
+  - "label1"
+  - "label2"
+  - "label3"
